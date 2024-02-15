@@ -1,0 +1,8 @@
+name: Pipeline
+on: [push]
+jobs:
+  setup-docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name:
+        run: echo "Hello"
