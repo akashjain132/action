@@ -25,5 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: latest
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: akashjain132/profile:latest
