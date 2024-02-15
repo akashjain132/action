@@ -7,4 +7,4 @@ jobs:
       - name: Get repo code
         uses: actions/checkout@v4
       - name: Run docker file
-        run: docker build -t sampleapp:v1 .
+        run: docker build -t action:v1 .
